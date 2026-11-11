@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- App name shown on the launcher -->
+    <string name="app_name">JoyOverlay</string>
+
+    <!-- true  = Material You wallpaper colors (Android 12+), ignores colors.xml
+         false = use the colors defined in colors.xml / values-night/colors.xml -->
+    <bool name="use_dynamic_color">false</bool>
+</resources>
