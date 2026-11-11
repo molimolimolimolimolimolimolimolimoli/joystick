@@ -1,5 +1,8 @@
 name: Build APK
 on:
+concurrency:
+  group: build
+  cancel-in-progress: true 
   push:
     branches: [main, master]
   workflow_dispatch:
